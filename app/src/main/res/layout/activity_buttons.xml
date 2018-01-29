@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/lin_lay"
+    android:background="@color/mainActivity_BG"
+    tools:context="solutionz.professionhub.activity.ActivityButtons">
+
+    <Button
+        android:id="@+id/btn_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sizeLow"
+        android:layout_marginTop="@dimen/sizeLow"
+        android:background="@drawable/button_shape"
+        android:padding="@dimen/sizeLow"
+        android:text="@string/user_sign_up"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/textSizeHigh"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btn_worker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sizeLow"
+        android:layout_marginTop="@dimen/sizeLow"
+        android:background="@drawable/button_shape"
+        android:padding="@dimen/sizeLow"
+        android:text="@string/employe_sign_up"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/textSizeHigh"
+        android:textStyle="italic|bold" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sizeLow"
+        android:layout_marginTop="@dimen/sizeLow"
+        android:background="@drawable/button_shape"
+        android:padding="@dimen/sizeLow"
+        android:text="@string/login"
+        android:textColor="@color/white_color"
+        android:textSize="@dimen/textSizeHigh"
+        android:textStyle="italic|bold" />
+
+
+</LinearLayout>

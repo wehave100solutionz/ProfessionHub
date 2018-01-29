@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:anndroid="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/mi_search"
+        android:title="search something"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+
+</menu>

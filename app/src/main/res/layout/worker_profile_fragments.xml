@@ -1,0 +1,42 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorPrimary">
+
+        <solutionz.professionhub.RoundedImageView.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_login_person"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img6"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tv_login_person_name"
+              android:layout_below="@+id/iv_login_person"
+              android:layout_centerInParent="true"
+              android:text="Asad"
+              android:textStyle="bold"
+              android:textSize="@dimen/textSizeHigh"
+              android:textColor="@color/white_color"
+              />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
